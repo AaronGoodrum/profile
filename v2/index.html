@@ -30,7 +30,7 @@
   </div>
 </nav>
 </header>
-<div data-spy="scroll" data-target="#navbarHome" data-offset="0" >
+<div data-spy="scroll" data-target="#navbarHome" data-offset="-50" >
 <div id="HOME" class="page-main container">
   <div class="row">
     <div class="col-md-auto col-sm">
@@ -49,44 +49,94 @@
 <div id="WORK" class="page-work">
   <div class="container">
     <h2>Projects</h2>
+    <div class="container text-center">
+    <p>
+      I'm currently working on several front-end development projects on
+      Free Code Camp, as well on some other online courses, other websites
+      and my personal projects.
+    </p>
+    <p> As I grow there will be providing update to projects to show my skills, experience
+      to better myself, and exploring the field of web development.
+    </p>
+    </div>
+
     <div class="card-deck">
       <div class="card">
-        <img class="card-img-top" src="img/correct_solution_apr.png" alt="Reading">
+        <svg viewBox="-50 -20">
+          <use xlink:href="svg/html.svg#htmlSVG"></use>
+        </svg>
         <div class="card-body">
-          <p class="card-text">To avoid creating a distraction, when starting a new design project, we always go back to one of the old mainstays: lorem ipsum or li Europan lingues.</p>
+          <p class="card-text">To avoid creating a distraction, when starting a
+             new design project, always go back to one of the old mainstays:
+             lorem ipsum or li Europan lingues.
+          </p>
         </div>
       </div>
         <div class="card">
-          <img class="card-img-top" src="img/our_vision.png" alt="hello">
+          <svg viewBox="-50 -20">
+            <use xlink:href="svg/html.svg#cssSVG"></use>
+          </svg>
           <div class="card-body">
-            <p class="card-text">When testing out typography it’s a good idea to pick a pangram: a phrase that includes every letter in the alphabet. This phrase does just that, and makes an ideal choice for font selection.</p>
+            <p class="card-text">When testing out typography it’s a good
+              idea to pick a pangram: a phrase that includes every letter in
+              the alphabet. This phrase does just that, and makes an ideal
+              choice for font selection.
+            </p>
           </div>
         </div>
-        </div>
-        <div class="row">
-          <div class="container pt-3">
+      </div>
+          <div class="card-deck">
             <div class="card">
               <div class="card-body">
-                <p class="card-text">Using the flickr API to pull for image from the form search box. Place the new image into the UL</p>
-            <form>
-              <label for="search">Type a search term</label>
-              <input class="form-control" type="search" id="search" placeholder="flickr Search">
-              <button class="btn btn-primary" type="submit" id="submit">Submit</button>
-            </form>
+                <p class="card-text">Building from the help from Team Tree House
+                  I've been able to understand and learn HTML, CSS, and Javascript
+                  to pursue my dreams in development.
+                </p>
+                <a href="http://referrals.trhou.se/aarongoodrum" target="_blank">
+                  <img class="img-fluid" alt="team tree house" src="https://static.teamtreehouse.com//assets/content/referral-badge-grn.png"/></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <a href="http://referrals.trhou.se/aarongoodrum" target="_blank">
+                  <img class="img-fluid" alt="seattle city" src="img\seattleSkyline.png"/></a>
+                  <p class="card-text">With the plans to work from the great city of Seattle, WA.
+                  </p>
+                  <p>Where average salary for a Junior Web Developer is over $70,000 a year.
+                  </p>
               </div>
             </div>
           </div>
-        </div>
-    </div>
   </div>
-
+</div>
 <!-- END WORK -->
 <div class="triangle-down"></div>
   <!-- ABOUT -->
 <div id="ABOUT" class="page-about">
   <div class="container">
-
       <h2>About Me</h2>
+      <div class="col">
+        <h3>Contact and View my Work</h3>
+        <div class="w-100 techBadges">
+          <a class="expand-link" href="https://github.com/GoodZillo" target="_blank">
+          <svg viewBox="0 0 125 125" class="badges">
+            <use xlink:href="svg/html.svg#githubSVG"></use>
+          </svg></a>
+          <a href="https://www.linkedin.com/in/aaron-goodrum-94551974/" target="_blank">
+          <svg viewBox="0 0 125 125" class="badges">
+            <use xlink:href="svg/html.svg#linkinSVG"></use>
+          </svg></a>
+          <a href="https://www.linkedin.com/in/aaron-goodrum-94551974/" target="_blank">
+          <svg viewBox="0 0 125 125" class="badges">
+            <use xlink:href="svg/html.svg#treehouseSVG"></use>
+          </svg></a>
+          <a href="mailto:ag505181@gmail.com?Subject=Hello%20Aaron%20Goodrum" target="_top">
+          <svg viewBox="0 0 125 125" class="badges">
+            <use xlink:href="svg/html.svg#gmailSVG"></use>
+          </svg></a>
+
+        </div>
+      </div>
 
       <div class="col">
         <h3>Technologies I've worked with</h3>
@@ -104,20 +154,10 @@
             <use xlink:href="svg/html.svg#jquerySVG"></use>
           </svg>
         </div>
-
       </div>
-
   </div>
-
 </div>
 <!-- END ABOUT -->
-
-<div class="container col">
-  <ul id="photos"></ul>
-</div>
-
-
-
 </div><!-- scrollspy -->
 <footer>
   <p>
@@ -127,8 +167,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
-
 </body>
-
 </html>
