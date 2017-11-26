@@ -70,17 +70,17 @@ padding-bottom: 2em;
 }
 
 /*SVG add color on hover*/
-#githubSVG:hover {
+.githubC:hover {
   fill: #F14E32;
-}
-#linkinSVG:hover {
+  }
+.linkinC:hover {
   fill: #0077B5;
 }
-#treehouseSVG:hover{
+.treehouseC:hover{
   fill: #5FCF80;
 }
-#gmailSVG:hover{
-  fill: #D14836;
+.gmailC:hover{
+  fill: #000;
 }
 
 
