@@ -1,7 +1,9 @@
 body {
+  position: relative;
   padding-top: 5em;
   height:100%;
-width:100%;
+  width:100%;
+  scroll-behavior: smooth;
 }
 
 footer {
